@@ -1,0 +1,109 @@
+body {
+    padding: 1.5rem;
+    background-color: hsl(204, 43%, 93%);
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+}
+.container-1 {
+    background-color: #ffffff;
+    padding: 3rem 1.5rem;
+    border-radius: 5px 5px 0 0;
+    
+}
+.container-2 {
+    background-color: hsl(179, 62%, 43%);
+    margin-top: -20px;
+    padding: 1rem 1.5rem;
+    color: #ffffff;
+}
+.container-3 {
+    background-color: #4abebd;
+    margin-top: 0;
+    border-radius: 0 0 5px 5px;
+    padding: 1rem 1.5rem;
+    color: hsl(204, 43%, 93%);
+   
+}
+h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 24px;
+    font-weight: 700;
+   
+}
+h2 {
+    color: #ffffff;
+    font-size: 20px;
+}
+.container-1 h2 {
+   color:  hsl(71, 73%, 54%);
+}
+.container-1 p {
+    color: hsl(218, 22%, 67%);
+}
+.container-3 p {
+    margin: 2px;
+}
+p {
+    line-height: 1.5;
+    color: hsl(204, 43%, 93%);
+}
+.price {
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: -5px;
+    display: flex; 
+    gap: 1rem;
+}
+.access {
+    margin-top: -40px;
+    margin-bottom: 2rem;
+}
+span {
+    color: hsl(204, 43%, 93%);
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+button {
+    background-color: hsl(71, 73%, 54%);
+    padding: 1rem 6rem;
+    color: #ffffff;
+    border-radius: 5px;
+    border: hsl(71, 73%, 54%);
+    
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 600px;
+        margin: 10rem auto;
+    }
+    .sub-container {
+        display: flex;
+        max-width: 100%;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+    .container-1 {
+        padding: 2rem;
+        border-radius: 7px 7px 0 0;
+    }
+    .container-2 {
+        flex: 1;
+        margin-top: 0;
+        padding: 2rem;
+        border-radius: 0 0 0 7px;
+    }
+    .container-3 {
+        flex: 1;
+        padding: 2rem;
+        border-radius: 0 0 7px 0;
+    }
+    button {
+        padding: 1rem 5rem;
+    }
+    .access {
+        font-size: 15px;
+    }
+}
